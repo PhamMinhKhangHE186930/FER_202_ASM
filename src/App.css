@@ -1,0 +1,23 @@
+/* src/App.css */
+
+.container {
+  margin-top: 50px;
+}
+
+.filter-section {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.filter-section h5 {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

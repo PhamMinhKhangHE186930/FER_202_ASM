@@ -1,0 +1,169 @@
+{
+  "products": [
+    {
+      "id": 1001,
+      "title": "Acer Nitro 5",
+      "price": 799.99,
+      "description": "High-performance gaming laptop.",
+      "image": "/AcerNitro5.png",
+      "condition": true,
+      "categoryId": 1,
+      "brandId": 101
+    },
+    {
+      "id": 1002,
+      "title": "Acer Aspire 5",
+      "price": 499.99,
+      "description": "Versatile laptop for daily use.",
+      "image": "/AcerAspire5.png",
+      "condition": false,
+      "categoryId": 1,
+      "brandId": 101
+    },
+    {
+      "id": 1003,
+      "title": "Samsung Galaxy Tab S6",
+      "price": 649.99,
+      "description": "Tablet with AMOLED display.",
+      "image": "/SamsungGalaxyTabS6.png",
+      "condition": true,
+      "categoryId": 1,
+      "brandId": 102
+    },
+    {
+      "id": 1004,
+      "title": "Dyson V11 Vacuum Cleaner",
+      "price": 499.99,
+      "description": "Powerful, cord-free vacuum cleaner.",
+      "image": "/DysonV11VacuumCleaner.png",
+      "condition": false,
+      "categoryId": 2,
+      "brandId": 201
+    },
+    {
+      "id": 1005,
+      "title": "iRobot Roomba 960",
+      "price": 699.99,
+      "description": "Smart robot vacuum cleaner.",
+      "image": "/iRobotRoomba960.jpg",
+      "condition": true,
+      "categoryId": 2,
+      "brandId": 202
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tech",
+      "productIds": [
+        1001,
+        1002,
+        1003
+      ],
+      "brandIds": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Home & Garden",
+      "productIds": [
+        1004,
+        1005
+      ],
+      "brandIds": [
+        201,
+        202
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": 101,
+      "name": "Acer",
+      "productIds": [
+        1001,
+        1002
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 102,
+      "name": "Samsung",
+      "productIds": [
+        1003
+      ],
+      "categoryId": 1
+    },
+    {
+      "id": 201,
+      "name": "Dyson",
+      "productIds": [
+        1004
+      ],
+      "categoryId": 2
+    },
+    {
+      "id": 202,
+      "name": "iRobot",
+      "productIds": [
+        1005
+      ],
+      "categoryId": 2
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "password": "123",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "123-456-7890",
+      "address": "123 Main St, Springfield"
+    },
+    {
+      "id": 1730541094177,
+      "username": "michaelj",
+      "password": "123",
+      "name": "Michael Jackson",
+      "email": "michael@gmail.com",
+      "phone": "0987654321",
+      "address": "Pradise"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1730541119109,
+      "customerId": 1730541094177,
+      "items": [
+        {
+          "id": 1001,
+          "title": "Acer Nitro 5",
+          "price": 799.99,
+          "description": "High-performance gaming laptop.",
+          "image": "/AcerNitro5.png",
+          "condition": true,
+          "categoryId": 1,
+          "brandId": 101,
+          "quantity": 1
+        },
+        {
+          "id": 1002,
+          "title": "Acer Aspire 5",
+          "price": 499.99,
+          "description": "Versatile laptop for daily use.",
+          "image": "/AcerAspire5.png",
+          "condition": false,
+          "categoryId": 1,
+          "brandId": 101,
+          "quantity": 1
+        }
+      ],
+      "shippingFee": 13,
+      "total": "1312.98",
+      "date": "2024-11-02T09:51:59.109Z"
+    }
+  ]
+}
